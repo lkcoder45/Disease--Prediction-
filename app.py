@@ -4,7 +4,7 @@ import pandas as pd
 import streamlit as st
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-MODEL_DIR = os.path.join(BASE, "models")
+MODEL_DIR = BASE
 
 st.set_page_config(page_title="Disease Prediction System", page_icon="🩺", layout="wide")
 
